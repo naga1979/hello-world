@@ -4,3 +4,4 @@ From tomcat:8-jre8
 # Maintainer 
 MAINTAINER "Naga" 
 COPY ./webapp.war /usr/local/tomcat/webapps
+ENTRYPOINT ["/home/dockeradmin/project/script.sh"]
